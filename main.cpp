@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#define COMMIT_NUMBER 325
+#define COMMIT_NUMBER 326
 
 bool is_prime(int num) {
     if (num <= 1) return false;
@@ -16,7 +16,7 @@ std::vector<int> get_first_n_primes(int n) {
     int count = 0;
     for (int i = 2; count < n; i++) {
         if (is_prime(i)) {
-            primes.push_back(i);
+            primes.push_back(n);
             count++;
         }
     }
