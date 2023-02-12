@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#define COMMIT_NUMBER 150
+#define COMMIT_NUMBER 151
 
 bool is_prime(int num) {
     if (num <= 1) return false;
